@@ -9,7 +9,10 @@ import { PagesComponent } from './pages/pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { FormsModule } from '@angular/forms';
+import { ComponentsModule } from '../components/components.module';
 
+import { NgChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     CommonModule,
     PagesRoutingModule,
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ComponentsModule,
+    NgChartsModule
   ],
   exports:[
     ProgressComponent,
