@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 
 import { NgChartsModule } from 'ng2-charts';
+import { AcountsetingsComponent } from './acountsetings/acountsetings.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { NgChartsModule } from 'ng2-charts';
     ProgressComponent,
     GraficaComponent,
     DashboardComponent,
-    PagesComponent],
+    PagesComponent,
+    AcountsetingsComponent],
   imports: [
     CommonModule,
     PagesRoutingModule,
@@ -34,6 +36,7 @@ import { NgChartsModule } from 'ng2-charts';
     ProgressComponent,
     GraficaComponent,
     DashboardComponent,
-    PagesComponent]
+    PagesComponent,
+    AcountsetingsComponent]
 })
 export class PagesModule { }
