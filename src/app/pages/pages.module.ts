@@ -14,6 +14,8 @@ import { ComponentsModule } from '../components/components.module';
 
 import { NgChartsModule } from 'ng2-charts';
 import { AcountsetingsComponent } from './acountsetings/acountsetings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { AcountsetingsComponent } from './acountsetings/acountsetings.component'
     GraficaComponent,
     DashboardComponent,
     PagesComponent,
-    AcountsetingsComponent],
+    AcountsetingsComponent,
+    PromesasComponent,
+    RxjsComponent],
   imports: [
     CommonModule,
     PagesRoutingModule,
